@@ -1,4 +1,4 @@
-## Project description:
+## Project description (Theory of automata course, final project):
 ### 1-Introduction
 So far, you have familiarized yourself with how Finite Automata works.
 Now in this project implement a Finite Automata completely using your programming knowledge that fulfills all the required features.
