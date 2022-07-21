@@ -42,24 +42,34 @@ They are final states. The accepted language of this machine has the alphabet {b
 It means that if the car is in q0 state and sees a, it enters q1 state. If alphabetical of the language is not in these rules, it means λ.
 <br />
 The following figure represents the desired input machine:
+<br />
+![alt text](https://github.com/k1booshehri/FinitieAutomata/blob/main/Automata.png)
+<br />
 ### 3-How to run the program
 You must first create two classes, NFA and DFA, and the attributes and methods you need to write functions
 If you have, implement in these classes. Then, in the Main class, take the input from the user and select the menu
 Display functions to the user until the user enters Exit.
 ### 4-1-Functions that you must implement
 Required functions for NFA class:
+<br />
 (a) Write a function called isAcceptByNFA that receives a string as input and
 If the string is accepted in the machine, it will return True and otherwise it will return False.
+<br />
 (b) Write a function called createEquivalentDFA that creates the equivalent DFA of the described machine
 returned as output.
+<br />
 (c) Write a function named findRegExp that returns the regular expression (equals
 Returns the described machine as output.
+<br />
 (d) Write a function called showSchematicNFA which, when called, will display the NFA as
 A schematic is displayed.
 ### 4-2-Required functions for DFA class:
+<br />
 (a) Write a function called isAcceptByDFA that receives a string as input and
 If the string is accepted in DFA, it will return True value, otherwise it will return False value.
+<br />
 (b) Write a function called makeSimpleDFA that takes a DFA as input and
 simplify it as much as possible and return the simplified DFA as output.
+<br />
 (c) Write a function called showSchematicDFA, which, when called, will display the DFA as
 A schematic is displayed.
