@@ -1,9 +1,9 @@
 # FinitieAutomata
-#Project description:
-#1 Introduction
+# Project description:
+# 1 Introduction
 So far, you have familiarized yourself with how Finite Automata works.
 Now in this project implement a Finite Automata completely using your programming knowledgethat fulfills all the required features.
-#2 program input format
+# 2 program input format
 At first you are given an initial input which is actually a description of an NFA.
 In the first line of input, a set is entered that contains the states of the machine and 
 the first member of this set it is also the starting mode of the machine.
@@ -28,11 +28,11 @@ They are final states. The accepted language of this machine has the alphabet {b
 It means that if the car is in q0 state and sees a, it enters q1 state. If alphabetical
 If the language is not in these rules, it means λ.
 The following figure represents the desired input machine:
-#3 How to run the program
+# 3 How to run the program
 You must first create two classes, NFA and DFA, and the attributes and methods you need to write functions
 If you have, implement in these classes. Then, in the Main class, take the input from the user and select the menu
 Display functions to the user until the user enters Exit.
-#4 functions that you must implement
+# 4-A functions that you must implement
 Required functions for NFA class:
 (a) Write a function called isAcceptByNFA that receives a string as input and
 If the string is accepted in the machine, it will return True and otherwise it will return False.
@@ -42,7 +42,7 @@ returned as output.
 Returns the described machine as output.
 (d) Write a function called showSchematicNFA which, when called, will display the NFA as
 A schematic is displayed.
-#4 Required functions for DFA class:
+# 4-B Required functions for DFA class:
 (a) Write a function called isAcceptByDFA that receives a string as input and
 If the string is accepted in DFA, it will return True value, otherwise it will return False value.
 (b) Write a function called makeSimpleDFA that takes a DFA as input and
