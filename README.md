@@ -18,19 +18,29 @@ For example, consider the following entry:
 {q0, q1, q2, q3, q4}
 <br />
 {a,b}
+<br />
 {q1, q3}
+<br />
 6
+<br />
 q0, q1, a
+<br />
 q1, q2, b
+<br />
 q1, q3,
+<br />
 q3, q4, b
+<br />
 q2, q3, a
+<br />
 q4, q2, a
+<br />
 3
+<br />
 In the above input, the machine in question has 4 states, where q0 is the starting state, and q1 and q3 are also states
 They are final states. The accepted language of this machine has the alphabet {b, a}. a, q1, q0 to this
-It means that if the car is in q0 state and sees a, it enters q1 state. If alphabetical
-If the language is not in these rules, it means λ.
+It means that if the car is in q0 state and sees a, it enters q1 state. If alphabetical of the language is not in these rules, it means λ.
+<br />
 The following figure represents the desired input machine:
 ### 3-How to run the program
 You must first create two classes, NFA and DFA, and the attributes and methods you need to write functions
