@@ -2,8 +2,8 @@
 ## Project description:
 ### 1-Introduction
 So far, you have familiarized yourself with how Finite Automata works.
-Now in this project implement a Finite Automata completely using your programming knowledgethat fulfills all the required features.
-### 2-program input format
+Now in this project implement a Finite Automata completely using your programming knowledge that fulfills all the required features.
+### 2-Program input format
 At first you are given an initial input which is actually a description of an NFA.
 In the first line of input, a set is entered that contains the states of the machine and 
 the first member of this set it is also the starting mode of the machine.
@@ -64,7 +64,6 @@ Returns the described machine as output.
 (d) Write a function called showSchematicNFA which, when called, will display the NFA as
 A schematic is displayed.
 ### 4-2-Required functions for DFA class:
-<br />
 (a) Write a function called isAcceptByDFA that receives a string as input and
 If the string is accepted in DFA, it will return True value, otherwise it will return False value.
 <br />
