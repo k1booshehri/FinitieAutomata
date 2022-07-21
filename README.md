@@ -1,4 +1,3 @@
-# FinitieAutomata
 ## Project description:
 ### 1-Introduction
 So far, you have familiarized yourself with how Finite Automata works.
@@ -38,8 +37,8 @@ q4, q2, a
 3
 <br />
 In the above input, the machine in question has 4 states, where q0 is the starting state, and q1 and q3 are also states
-They are final states. The accepted language of this machine has the alphabet {b, a}. a, q1, q0 to this
-It means that if the car is in q0 state and sees a, it enters q1 state. If alphabetical of the language is not in these rules, it means λ.
+that are final states. The accepted language of this machine has the alphabet {b, a}. a, q1, q0.
+It means that if the machine is in q0 state and sees a, it enters q1 state. If alphabetical of the language is not in these rules, it means λ.
 <br />
 The following figure represents the desired input machine:
 <br />
