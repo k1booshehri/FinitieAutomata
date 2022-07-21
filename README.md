@@ -7,12 +7,16 @@ Now in this project implement a Finite Automata completely using your programmin
 At first you are given an initial input which is actually a description of an NFA.
 In the first line of input, a set is entered that contains the states of the machine and 
 the first member of this set it is also the starting mode of the machine.
+<br />
 In the second line comes the alphabet of the language that the machine accepts.
 In the third line, you will be given the set of final states of the machine in question.
 In the fourth line, a positive integer is given, which represents the number of transfer rules of the desired machine
 and then, in each of the next n lines, you will be given each transition rule.
+<br />
 For example, consider the following entry:
+<br />
 {q0, q1, q2, q3, q4}
+<br />
 {a,b}
 {q1, q3}
 6
